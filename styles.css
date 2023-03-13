@@ -1,8 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     color: #F9FAF8;
+    margin: 0;
 }
 
 
@@ -12,17 +10,13 @@ body {
 
 .header, .hero, .footer {
     background-color: #1F2937;
+    padding: 0 300px;
 }
 
 .quote {
     background-color: #E5E7EB;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .header ul, .secondary {
     font-size: 18px;
     color:#E5E7EB
@@ -42,4 +36,25 @@ ul {
     display:flex;
     gap: 20px;
     list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Main {
+    font-size: 48px;
+    font-weight: 900;
 }
