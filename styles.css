@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     flex: 1 0 auto;
     height: 100vh;
+    font-family: "Roboto", helvetica, sans-serif;
 }
 
 .content {
@@ -33,4 +34,35 @@ body {
 
 .header a{
     text-decoration: none;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+.header, .hero, .callToAction, .footer, button {
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+button, .callToAction {
+    background-color: #3882F6;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header p {
+    font-size: 24px;
+    font-weight: 700;
 }
