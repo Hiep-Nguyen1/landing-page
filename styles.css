@@ -1,6 +1,10 @@
 body {
-    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+}
+
+body, a, button {
+    color: #F9FAF8;
 }
 
 
@@ -29,7 +33,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
 }
 
 ul {
@@ -65,4 +68,12 @@ button, .callToAction {
 
 button, .callToAction, .content img {
     border-radius: 10px;
+}
+
+button {
+    font-weight: 700;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
 }
