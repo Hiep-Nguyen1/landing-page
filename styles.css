@@ -52,9 +52,17 @@ button, .callToAction {
     background-color: #3882F6;
 }
 
+.infoHeader, .quoteText {
+    font-size: 36px;
+    color:#1f2937;
+}
+
+.main, .infoHeader {
+    font-weight: 900;
+}
+
 .main {
     font-size: 48px;
-    font-weight: 900;
 }
 
 .secondary, a {
@@ -65,4 +73,33 @@ button, .callToAction {
 .header p {
     font-size: 24px;
     font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.subContainer{
+    max-width: 150px;
 }
