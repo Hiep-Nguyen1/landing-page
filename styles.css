@@ -9,10 +9,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     flex: 1 0 auto;
 }
 
 .footer {
     flex: 0 0 auto;
     margin-top: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header a{
+    text-decoration: none;
 }
