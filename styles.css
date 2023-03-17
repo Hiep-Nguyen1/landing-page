@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex: 0 0 auto;
+    padding: 0 30px;
 }
 
 .header ul{
@@ -75,13 +76,17 @@ button, .callToAction {
     font-weight: 700;
 }
 
+.hero, .information, .quote, .containerCTA{
+    width: 100%;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex: 1 1 auto;
-    width: 100%;
+
 }
 
 .information {
@@ -90,7 +95,7 @@ button, .callToAction {
     justify-content: space-evenly;
     text-align: center;
     flex: 1 1 auto;
-    width: 100%;
+
 }
 
 .container {
@@ -102,4 +107,52 @@ button, .callToAction {
 
 .subContainer{
     max-width: 150px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.quoteText,.quoteAuthor{
+    margin: 0;
+    min-width: 600px;
+}
+
+.quoteText{
+    text-align: left;
+    font-style: italic;
+    font-weight: 0;
+}
+
+.quoteAuthor{
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.containerCTA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: space-around;
+    min-width: 600px;
+    padding: 30px 0;
+}
+
+.callToAction p{
+    margin:0;
+}
+
+.big{
+    font-weight: 700;
 }
