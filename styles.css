@@ -58,3 +58,11 @@ ul {
     font-size: 48px;
     font-weight: 900;
 }
+
+button, .callToAction {
+    background-color: #3882F6;
+}
+
+button, .callToAction, .content img {
+    border-radius: 10px;
+}
